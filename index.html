@@ -5,17 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Foodi</title>
         <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
 
-            <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet"
+            href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
         <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
     </head>
     <body>
+
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
 
         <!-- =============================
              Header Section
         ============================= -->
+
         <header>
             <div class="wrapper">
                 <div class="navbar-menu">
@@ -31,7 +39,7 @@
                         </ul>
                     </div>
                     <div class="right-menu">
-                        <ul class="right-menu-list">
+                        <ul class="right-menu-list btn-list">
                             <li>
                                 <img src="./assets/img/search-icon.png"
                                     alt="serach-icon">
@@ -40,15 +48,15 @@
                                 <img src="./assets/img/cart.png" alt="cart">
                             </li>
                         </ul>
-                        <button class="btn">
+                        <button class="btn btn-list">
                             <img src="./assets/img/icon-contact.png"
                                 alt="icon-contact">
                             <span>Contact</span>
                         </button>
+                        <i class="fa-solid fa-bars btn-list"></i>
                     </div>
                 </div>
             </div>
-
         </header>
 
         <div class="mobile-menu">
@@ -67,7 +75,7 @@
                     <img src="./assets/img/search-icon.png"
                         alt="serach-icon">
                 </li>
-                <li>
+                <li class="cart-total">
                     <img src="./assets/img/cart.png" alt="cart">
                 </li>
             </ul>
@@ -148,7 +156,7 @@
              Catagories Section
         ============================= -->
 
-        <section class="categories">
+        <!-- <section class="categories">
             <div class="wrapper">
                 <div class="sec-content">
                     <h4 class="section-title-top">Customer Favorites</h4>
@@ -204,14 +212,13 @@
 
 
 
-                    </section>
+                    </section> -->
 
-                    <!-- =============================
+        <!-- =============================
              Dishes Section
         ============================= -->
 
-
-        <section class="dishes">
+        <!-- <section class="dishes">
             <div class="wrapper">
                 <div class="sec-content">
                     <h4 class="section-title-top">Special Dishes</h4>
@@ -219,17 +226,17 @@
                 </div>
                 <div class="dishes-row owl-carousel owl-theme">
 
-                    
                     <div class="dishes-col">
                         <div class="leaf">
                             <i class="fa-solid fa-heart"></i>
                         </div>
                         <div class="dishes-box">
-                            <img src="./assets/img/dish-03.png" alt="">
+                            <img src="./assets/img/dish-03.png" alt>
                             <h3>Fattoush salad</h3>
                             <span class="desc">Description of the item</span>
                             <div class="price-number">
-                                <span class="price"><span class="doller">$</span>24.00</span>
+                                <span class="price"><span
+                                        class="doller">$</span>24.00</span>
                                 <span class="review-number">
                                     <i class="fa-solid fa-star"></i> 4.9</span>
                             </div>
@@ -240,11 +247,12 @@
                             <i class="fa-regular fa-heart"></i>
                         </div>
                         <div class="dishes-box">
-                            <img src="./assets/img/dish-02.png" alt="">
+                            <img src="./assets/img/dish-02.png" alt>
                             <h3>Vegetable salad</h3>
                             <span class="desc">Description of the item</span>
                             <div class="price-number">
-                                <span class="price"><span class="doller">$</span>26.00</span>
+                                <span class="price"><span
+                                        class="doller">$</span>26.00</span>
                                 <span class="review-number">
                                     <i class="fa-solid fa-star"></i> 4.6</span>
                             </div>
@@ -256,11 +264,12 @@
                             <i class="fa-regular fa-heart"></i>
                         </div>
                         <div class="dishes-box">
-                            <img src="./assets/img/dish-02.png" alt="">
+                            <img src="./assets/img/dish-02.png" alt>
                             <h3>Vegetable salad</h3>
                             <span class="desc">Description of the item</span>
                             <div class="price-number">
-                                <span class="price"><span class="doller">$</span>26.00</span>
+                                <span class="price"><span
+                                        class="doller">$</span>26.00</span>
                                 <span class="review-number">
                                     <i class="fa-solid fa-star"></i> 4.6</span>
                             </div>
@@ -272,11 +281,12 @@
                             <i class="fa-regular fa-heart"></i>
                         </div>
                         <div class="dishes-box">
-                            <img src="./assets/img/dish-01.png" alt="">
+                            <img src="./assets/img/dish-01.png" alt>
                             <h3>Egg vegi salad</h3>
                             <span class="desc">Description of the item</span>
                             <div class="price-number">
-                                <span class="price"><span class="doller">$</span>23.00</span>
+                                <span class="price"><span
+                                        class="doller">$</span>23.00</span>
                                 <span class="review-number">
                                     <i class="fa-solid fa-star"></i> 4.5</span>
                             </div>
@@ -284,11 +294,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-                    <!-- =============================
+        </section> -->
+        <!-- =============================
              Testimonials Section
         ============================= -->
-        <section class="testimonials">
+        <!-- <section class="testimonials">
             <div class="wrapper">
                 <div class="sec-row">
                     <div class="col">
@@ -317,14 +327,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-
-                    <!-- =============================
+        <!-- =============================
              Services Section
         ============================= -->
 
-        <section class="services">
+        <!-- <section class="services">
             <div class="wrapper">
                 <div class="sec-row">
                     <div class="sec-col">
@@ -374,14 +383,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        
-                    <!-- =============================
+        <!-- =============================
              Footer Section
         ============================= -->
 
-        <footer>
+        <!-- <footer>
             <div class="wrapper">
                 <div class="sec-row">
                     <div class="sec-col">
@@ -443,14 +451,16 @@
                     </div>
                  </div>
             </div>
-        </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+        </footer> -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 
         </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-        <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-     
-        
-                    <script src="./assets/js/main.js"></script>
-                </body>
-            </html>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script
+            src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

@@ -29,3 +29,22 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+// Preloader JS
+function preloader_fade() {
+  $("#preloader").fadeOut("slow");
+}
+$(document).ready(function () {
+  window.setTimeout("preloader_fade();", 500); //call fade in .5 seconds
+});
+$(document).ready(function () {
+  // Open sidebar
+  $(".fa-bars").click(function () {
+    $(".mobile-menu").addClass("sidebar-show ");
+    $("body").addClass("background-shadow");
+  });
+  // Close sidebar
+  $(".fa-xmark").click(function () {
+    $(".mobile-menu").removeClass("sidebar-show");
+    $("body").removeClass("background-shadow");
+  });
+});

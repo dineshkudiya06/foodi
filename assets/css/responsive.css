@@ -1,0 +1,167 @@
+@media (max-width:1500px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:1400px) {
+    header .list-center-menu {
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .home-banner .sec-content {
+        width: 100%;
+        max-width: 590px;
+    }
+
+    .home-banner h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 15px;
+    }
+
+    .home-banner p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    .home-banner .btn {
+        font-size: 18px;
+        font-weight: 400;
+        width: 100%;
+        max-width: 170px;
+        height: 60px;
+    }
+
+    .home-banner .video .watch {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .btn-group {
+        column-gap: 15px;
+    }
+
+    .home-banner .play {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-banner .play i {
+        font-size: 18px;
+    }
+
+    .home-banner .box h5 {
+        font-size: 14px;
+    }
+
+    .home-banner p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    .home-banner .box .price span {
+        color: var(--light-black);
+        font-size: 16px;
+    }
+
+    .home-banner .box {
+        column-gap: 12px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .home-banner .box img {
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+    .home-banner .box .fa-solid {
+        color: #FFE605;
+        font-size: 12px;
+    }
+
+    .home-banner .box .fa-regular {
+        color: #B0B4B7;
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 991px) {
+    header .list-center-menu {
+        display: none;
+    }
+
+    header .right-menu-list {
+        display: none;
+    }
+
+    header .btn {
+        display: none;
+    }
+
+    header .right-menu .btn-list:nth-child(-n + 2) {
+        margin-right: 40px;
+    }
+
+    .fa-bars {
+        font-size: 26px;
+        display: initial;
+
+    }
+
+    .sec-row {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
+    .sec-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home-banner .sec-content {
+        width: 100%;
+        max-width: 426px;
+    }
+
+}
+
+
+@media (max-width:480px) {
+    .home-banner .review-box {
+        column-gap: 0;
+        row-gap: 20px;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .home-banner h1 {
+        font-size: 30px;
+    }
+
+    .home-banner .sec-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .home-banner .btn {
+        font-size: 16px;
+        width: 100%;
+        max-width: 150px;
+        height: 48px;
+    }
+
+    .home-banner .video .watch {
+        font-size: 16px;
+    }
+}
