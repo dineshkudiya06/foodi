@@ -176,6 +176,36 @@
     .dishes .dishes-col .leaf i {
         font-size: 18px;
     }
+
+    .section-desc {
+        font-size: 18px;
+        line-height: 165%;
+    }
+
+    .testimonials .section-title {
+        margin-bottom: 18px;
+    }
+
+    .customer-feedback img {
+        width: 130px;
+    }
+
+    .testimonials .customer-feedback h5 {
+        font-size: 19px;
+        margin-bottom: 0;
+    }
+
+    .testimonials .customer-feedback .feedback-number {
+        font-size: 16px;
+    }
+
+    .testimonials .customer-feedback .feedback-number span {
+        font-size: 16px;
+    }
+
+    .testimonials .customer-feedback {
+        column-gap: 18px;
+    }
 }
 
 
@@ -240,6 +270,20 @@
     .dishes .dishes-box {
         min-height: 410px;
     }
+
+    .sec-row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .testimonials .col:nth-child(-n + 2) {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
 
 }
 
@@ -315,5 +359,10 @@
 
     .section-title-top {
         margin-bottom: 5px;
+    }
+
+    .testimonials .customer-feedback {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
